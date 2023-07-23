@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="192.892" height="60.401" viewBox="0 0 192.892 60.401">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.065" y1="0.389" x2="0.791" y2="0.807" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8b33ff"/>
+      <stop offset="1" stop-color="#cd2bdf"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_458" data-name="Group 458" transform="translate(0 0)">
+    <text id="Lilith" transform="translate(45.893 48.401)" fill="#707070" font-size="42" font-family="OpenSans-SemiBold, Open Sans" font-weight="600"><tspan x="0" y="0">Lilith</tspan></text>
+    <g id="Group_39" data-name="Group 39" transform="translate(0 0)">
+      <path id="Path_30" data-name="Path 30" d="M-359.229-261.537l15.566,15.566V-221.2h24.64l-15.188,15.188h-9.822l-15.2-15.2Z" transform="translate(359.229 261.537)" fill="url(#linear-gradient)"/>
+      <path id="Path_31" data-name="Path 31" d="M37.823-27.491l8.947,8.947H37.823Z" transform="translate(-37.798 74.123)" fill="#d4d1d1"/>
+    </g>
+  </g>
+</svg>

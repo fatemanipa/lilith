@@ -1,0 +1,1438 @@
+
+@media only screen and (min-width: 1536px) and (max-width: 1804px) {
+
+    .table.table-list thead th {
+        font-size: 16px;
+      }
+      .dtab-content {
+        padding-top: 54px;
+      }
+      nav.tabs button, nav.dtabs button {
+        margin: 0 7px;
+      }
+      #donutChart, #donutChart2, #donutChart3 {
+        width: 164px;
+      }
+      .sales-middle.card {
+        padding-top: 44px;
+      }
+      
+      .dtab-content {
+        padding-top: 34px;
+      }
+      .dtabs {
+        padding-top: 10px;
+      }
+      .tab-content {
+        padding-top: 7px;
+      }
+      .sales-area .card-header h4, .sales-bottom-area .card-header h4 {
+        font-size: 18px;
+      }
+      tr th, tr td {
+        width: 69px;
+      }
+      tr th:last-child, tr td:last-child {
+        max-width: 48px !important;
+        width: 51px !important;
+      }
+      
+.piechart canvas, .piechart3 canvas {
+  width: 190px;
+}
+.piechart2 canvas, .piechart4 canvas {
+  width: 156px;
+}
+.single_pie_chart:last-child .pie_chart_txt {
+	padding-top: 56px;
+}
+.chart canvas#myChart, .horizontal-dark .chart canvas#myChart4 {
+	min-height: 300px !important;
+}
+  tr th:last-child, tr td:last-child {
+    max-width: 54px !important;
+    width: 51px !important;
+  }
+  tr td:first-child, tr th:first-child {
+    padding-right: 0;
+    width: 153px;
+  }
+  
+#myChart2 {
+  height: 353px !important;
+}
+.sales-bottom-area .sales-left .card-header h4 {
+  padding-top: 11px;
+}
+.horizontal-area {
+	width: 1400px;
+}
+.horizontal-area #myChart2 {
+	height: auto !important;
+}
+}
+@media only screen and (min-width: 1280px) and (max-width: 1535px) {
+  .hidden-card {
+    margin-top: 0 !important;
+  }
+  #myChart3 {
+    height: 428px !important;
+  }
+  .ht-menu.hide + .main-content myChart3 {
+    width: 100% !important;
+  }
+  .sales-bottom-area .sales-left {
+    margin-top: 30px;
+  }
+  .piechart canvas {
+    width: 180px;
+  }
+  .piechart2 canvas {
+    width: 133px;
+  }
+  .chart canvas#myChart {
+    min-height: 290px !important;
+  }
+  
+.single_pie_chart:last-child .pie_chart_txt {
+  padding-top: 59px;
+}
+.horizontal-area {
+	width: 1100px;
+}
+.dark .chart canvas#myChart4 {
+  height: 280px !important;
+  min-height: 280px !important;
+}
+}
+@media only screen and (min-width: 1280px) and (max-width: 1366px) {
+      
+  .piechart canvas, .piechart3 canvas {
+    width: 160px;
+  }
+  .piechart2 canvas, .piechart4 canvas {
+    width: 122px;
+  }
+  
+.sales-right {
+  padding-left: 20px;
+  padding-right: 0 !important;
+}
+.sales-left, .sales-right, .sales-middle {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.sales-bottom-area .sales-right {
+  padding-right: 20px !important;
+}
+.chart canvas#myChart, .horizontal-dark canvas#myChart4  {
+	min-height: 280px !important;
+}  
+.sales-bottom-area .sales-left {
+  margin-top: 30px;
+}
+}
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+  .sales-right {
+    padding-left: 20px;
+    padding-right: 0 !important;
+  }
+  .sales-left, .sales-right, .sales-middle {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .piechart canvas, .piechart3 canvas {
+    width: 120px;
+  }
+  .piechart2 canvas, .piechart4 canvas {
+    width: 92px;
+  }
+  .chart canvas#myChart, .chart canvas#myChart4 {
+    min-height: 230px !important;
+  }  .sales-bottom-area .sales-left {
+    margin-top: 0px;
+  }
+  .sales-bottom-area .sales-right {
+    padding-right: 20px !important;
+  }
+  .table.table-list thead th {
+    font-size: 15px;
+  }
+  
+  tr th, tr td {
+    width: 69px;
+  }
+  tr th:last-child, tr td:last-child {
+    max-width: 48px !important;
+    width: 51px !important;
+  }
+  
+.sidebar-top {
+  flex: 0 0 250px;
+}
+.ht-menu {
+  width: 250px !important;
+  padding-left: 28px;
+}
+.ht-menu-sub-menu li a {
+	padding-left: 28px;
+}
+.ht-menu.show + .main-content, .ht-menu.show ~ .footer-area {
+  margin-left: 250px;
+}
+.sales-area .card-header h4, .sales-bottom-area .card-header h4 {
+  font-size: 17px;
+}
+.ht-menu-menu > ul > li > a span.new_tag {
+  margin-left: 25px;
+}
+#donutChart, #donutChart2, #donutChart3 {
+  width: 164px;
+}
+.sales-middle.card {
+  padding-top: 44px;
+}
+
+.dtab-content {
+  padding-top: 34px;
+}
+.dtabs {
+  padding-top: 10px;
+}
+.tab-content {
+  padding-top: 8px;
+}
+.piechart2, .piechart4 {
+	top: 27px;
+  margin-bottom: 0;
+}
+.logo {
+	padding-top: 0px;
+	padding-left: 28px;
+}
+.ht-menu-menu > ul > li > a span {
+	margin-left: 18px;
+}
+.ht-menu-sub-menu {
+}
+#myChart3 {
+  height: 362px !important;
+}
+.sales-middle.card {
+  padding-top: 35px;
+}
+.single_pie_chart:last-child .pie_chart_txt {
+	padding-top: 49px;
+}
+.horizontal-area {
+	width: 90%;
+}
+.horizontal-area .logo {
+	padding-left: 0;
+}
+.rtl .ht-menu.show + .main-content, .rtl .ht-menu.show ~ .footer-area {
+	margin-right: 250px;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .horizontal-area {
+    width: 93%;
+  }
+  .sales-bottom-area .sales-right {
+    padding-right: 20px !important;
+  }
+  .ht-menu {
+    width: 240px !important;
+    top: 74px;
+    height: calc(100vh - 74px);
+  }
+  .ht-menu.show + .main-content, .ht-menu.show ~ .footer-area {
+    margin-left: 0px;
+  }
+  .new_tag.inline-block.text-white.text-center {
+    margin-left: 22px;
+  }
+  .sales-area .card-header h4, .sales-bottom-area .card-header h4 {
+    font-size: 17px;
+  }
+  .ht-menu-menu > ul > li > a span.new_tag {
+    margin-left: 25px;
+  }
+  #donutChart, #donutChart2, #donutChart3 {
+    width: 164px;
+  }
+  .sales-middle.card {
+    padding-top: 44px;
+  }
+  
+  .dtab-content {
+    padding-top: 34px;
+  }
+  .dtabs {
+    padding-top: 10px;
+  }
+  .tab-content {
+    padding-top: 8px;
+  }
+  .piechart2 {
+    top: 36px;
+    margin-bottom: 0;
+  }
+  
+.chart canvas#myChart {
+	min-height: 350px !important;
+}
+.logo {
+	top: 1px;
+	padding-left: 16px;
+	line-height: 0;
+	position: relative;
+}
+
+.table.table-list thead th {
+  font-size: 16px;
+}
+tr th:last-child, tr td:last-child {
+  max-width: 63px !important;
+}
+tr th, tr td {
+  width: 53px;
+}
+.sales-bottom-area .sales-left {
+  margin-top: 30px;
+}
+.ht-menu.hide {
+	width: 240px !important;
+	left: -240px !important;
+}
+
+.ht-menu.hide + .main-content, .ht-menu.hide ~ .footer-area {
+  margin-left: 0;
+}
+.ht_dropdown {
+  margin-right: 21px;
+}
+.dropdown-menu-notice {
+	right: -27px;
+	margin-top: 19px;
+}
+.sidebar-top {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	height: auto;
+  flex: 0 0 240px;
+}
+.ht_dropdown:last-child .dropdown-menu-notice {
+	right: 0;
+}
+.side-menu-toggle {
+  height: 33px;
+}
+
+.ht-menu.hide + .main-content .chart canvas#myChart, .ht-menu.hide + .main-content .chart canvas#myChart4 {
+  width: 100% !important;
+}
+.sales-area .sales-right {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.single_pie_chart:last-child .pie_chart_txt {
+  padding-top: 58px;
+}
+.sales-area .sales-left {
+	margin-bottom: 30px;
+}
+
+.sales-bottom-area .sales-left {
+  margin-top: 0;
+}
+.sales-middle.card {
+  padding-bottom: 7px;
+  padding-top: 34px;
+}
+.chart-txt {
+  padding-top: 35px;
+}
+
+#myChart3 {
+  height: 319px !important;
+}
+.ht-menu-menu > ul > li > a span {
+  margin-left: 17px;
+}
+.ht-menu-sub-menu {
+  padding-left: 11px;
+}
+  .ht-menu-sub-menu li a {
+	padding-left: 19px;
+}
+
+.horizontal-area .ht-menu.hide .ht-menu-menu > ul > li > a > span:nth-child(2) {
+  display: block;
+  line-height: 30px;
+  margin-left: 2px;
+}
+.horizontal-area .ht-menu.hide {
+  width: 100% !important;
+  left: 0 !important;
+  padding: 0;
+}
+.horizontal-area .logo {
+  padding-left: 0;
+}
+
+.horizontal-area .ht-menu.hide .ht-menu-menu > ul > li > a span.material-icons {
+  background: transparent;
+  margin-left: 10px;
+}
+.horizontal-area .has-sub-menu > a::before {
+  display: block !important;
+  top: 16px;
+}
+.horizontal-area .ht-menu-menu > ul > li > a {
+	margin-right: 0px;
+	padding-right: 20px;
+	padding-top: 17px;
+	padding-bottom: 17px;
+}
+.horizontal-area .sidebar-top {
+	padding: 0px;
+}
+.horizontal-area .ht-menu .ht-menu-sub-menu {
+	display: none;
+	top: 64px;
+	box-shadow: 0 6px 20px rgba(0, 0, 0, .1);
+}
+
+.header_button.export .ht_dropdown.infos .dropdown-menu-notice {
+	right: 0;
+}
+
+.ht-menu.hide .ht-menu-sub-menu {
+	display: none !important;
+}
+nav.tabs button {
+  margin: 0 25px;
+}
+
+.ht-menu.hide {
+  left: auto !important;
+  right: -240px !important;
+}
+.rtl .ht-menu.show + .main-content, .rtl .ht-menu.show ~ .footer-area {
+  margin-left: 0;
+  margin-right: 0;
+}
+.dark-sidebar.ht-menu {
+  z-index: 11;
+}
+.rtl .ht-menu.hide + .main-content, .rtl .ht-menu.hide ~ .footer-area {
+  margin-right: 0;
+}
+.rtl .ht_dropdown {
+  margin-left: 21px;
+  margin-right: 0;
+}
+.rtl .ht_dropdown.envelope {
+  margin-right: 2px;
+  margin-left: 27px;
+}
+.header_notification.mail_box .dropdown-menu-notice {
+	right: -10px;
+}
+.rtl .header_notification.mail_box .dropdown-menu-notice {
+  right: auto;
+  left: -10px;
+}
+.rtl .header_right {
+  height: auto !important;
+}
+
+}
+@media only screen and (min-width: 640px) and (max-width: 767px) {
+  .sales-bottom-area .sales-left {
+    margin-top: 0px;
+  }
+  .ht-menu.hide {
+    width: 240px !important;
+    left: -240px !important;
+  }
+  
+  .ht-menu.hide + .main-content, .ht-menu.hide ~ .footer-area {
+    margin-left: 0;
+  }
+  .ht_dropdown {
+    margin-right: 21px;
+  }
+  .dropdown-menu-notice {
+    right: -27px;
+    margin-top: 19px;
+  }
+  .sidebar-top {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    height: 76px;
+    padding-left: 22px;
+    padding-right: 22px;
+    flex: 0 0 200px;
+  }
+  .ht_dropdown:last-child .dropdown-menu-notice {
+    right: 0;
+  }
+  .logo {
+	padding-top: 3px;
+	padding-left: 3px;
+}
+  .ht-menu.show + .main-content {
+    margin-left: 0
+  }
+  .header_notification {
+    visibility: hidden;
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    right: 45px;
+    top: 32px;
+    justify-content: end;
+    padding-right: 1.75rem;
+    padding-left: 1.75rem;
+    margin-top: -10px;
+    transition: all 0.3s ease 0s;
+  }
+  .header_notification.show {
+    visibility: visible;
+    opacity: 1;
+    bottom: -50%;
+  }
+.mobile-header-nav {
+	display: block;
+}
+
+.ht-menu {
+  width: 182px !important;
+  top: 76px;
+  padding-left: 23px;
+}
+.ht-menu .menu-wrap-box {
+  padding-right: 20px;
+}
+.ht-menu-menu > ul > li > a span {
+  margin-left: 13px;
+}
+
+.ht-menu {
+  width: 200px !important;
+  top: 76px;
+  padding-left: 23px;
+  height: calc(100vh - 76px);
+}
+.ht-menu .menu-wrap-box {
+  padding-right: 20px;
+}
+.ht-menu-menu > ul > li > a span {
+  margin-left: 13px;
+}
+.ht-menu-sub-menu {
+  padding-left: 0;
+}
+.ht-menu-menu > ul > li > a span.new_tag {
+  margin-left: 13px;
+  width: 42px;
+}
+.ht-menu.hide + .main-content .chart canvas#myChart {
+	width: 100% !important;
+	min-height: auto !important;
+}
+  .dark .ht-menu.hide + .main-content .chart canvas#myChart4 {
+    width: 100% !important;
+    min-height: auto !important;
+    height: auto !important;
+  }
+.sales-bottom-area .sales-left {
+	margin-top: 0px;
+	padding-left: 0;
+	padding-right: 10px;
+}
+.sales-area .sales-right {
+  padding-bottom: 30px;
+  margin-top: 30px;
+}
+tr th:last-child, tr td:last-child {
+  max-width: 71px !important;
+}
+tr th, tr td {
+  width: 67px;
+}
+
+nav.dtabs button {
+  margin: 0 10px;
+}
+.dtab-content {
+  padding-top: 26px;
+  padding-bottom: 4px;
+}
+.chart-txt {
+  padding-top: 22px;
+}
+#myChart3 {
+  margin-top: 28px;
+  height: 280px !important;
+}
+.sales-bottom-area .card-header h4 {
+  padding-left: 19px;
+}
+
+#donutChart, #donutChart2, #donutChart3 {
+  width: 140px;
+  height: 140px;
+}
+.horizontal-area .ht-menu.hide .ht-menu-menu > ul > li > a > span:nth-child(2) {
+  display: block;
+  line-height: 30px;
+  margin-left: 2px;
+}
+.horizontal-area .ht-menu.hide {
+  width: 100% !important;
+  left: 0 !important;
+	width: 240px !important;
+	left: -240px !important;
+}
+.horizontal-area .logo {
+	padding-left: 0;
+	padding-top: 4px;
+}
+.horizontal-area .ht-menu.hide .ht-menu-menu > ul > li > a span.material-icons {
+  background: transparent;
+  margin-left: 10px;
+}
+.horizontal-area .has-sub-menu > a::before {
+  display: block !important;
+  top: 11px;
+}
+.horizontal-area .ht-menu-menu > ul > li > a {
+	margin-right: 0px;
+	padding-right: 20px;
+	padding-top: 17px;
+	padding-bottom: 17px;
+}
+.horizontal-area .sidebar-top {
+	padding: 0px;
+	flex: 0 0 144px;
+	margin-left: 0;
+}
+.horizontal-area .ht-menu .ht-menu-sub-menu {
+	box-shadow: 0 6px 20px rgba(0, 0, 0, .1);
+	padding-left: 0;
+	width: 100%;
+	position: relative;
+	right: auto;
+	left: 0;
+	float: none;
+	background: transparent;
+	box-shadow: none;
+	border-radius: 0;
+	padding-top: 0;
+	top: 0;
+	padding-bottom: 0;
+}
+.horizontal-area {
+	width: 100%;
+  padding: 0 24px;
+}
+.horizontal-area .header {
+  margin-top: 17px;
+}
+.mobile-menu-toggle {
+  margin-top: 0;
+}
+.side-menu-toggle {
+  height: 41px;
+  margin-right: 13px;
+}
+.horizontal-area .ht-menu {
+	width: 200px !important;
+	height: 100%;
+	top: 0;
+	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
+	border-radius: 0;
+	padding: 26px 0 0 24px;
+	left: 0;
+	position: fixed;
+	background: #fff;
+	z-index: 99;
+}
+.horizontal-area .ht-menu .menu-wrap-box {
+	height: 100%;
+}
+.horizontal-area .ht-menu-menu > ul {
+	display: block;
+}
+.horizontal-area .has-sub-menu {
+	float: none;
+	margin: 3px 0;
+}
+.dropdown-menu-notice {
+	right: -10px;
+}
+.ht-menu.hide .ht-menu-sub-menu {
+	display: none !important;
+}
+
+.horizontal-area .menu-wrap-box h3 {
+  margin-bottom: 13px;
+}
+.horizontal-area .ht-menu-menu > ul > li > a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.horizontal-area .ht-menu-menu > ul > li > a span {
+  margin-left: 0;
+  margin-right: 11px;
+}
+.horizontal-area .menu-wrap-box h3 {
+	margin-top: 32px;
+}
+.horizontal-area .ht-menu.show .side-menu-close {
+	right: -40px;
+	opacity: 1;
+	visibility: visible;
+}
+.horizontal-area .dropdown-menu-notice.show {
+	top: 2.5%;
+}
+.ht-menu.hide .ht-menu-sub-menu {
+	display: none !important;
+}
+
+.rtl .sidebar-top {
+  padding-left: 22px;
+  padding-right: 22px;
+}
+.rtl .side-menu-toggle {
+  margin-right: 0;
+  margin-left: 13px;
+}
+.rtl .logo {
+  padding-right: 3px;
+  padding-left: 0;
+}
+.rtl .header_notification {
+	right: auto;
+	left: 45px;
+	justify-content: start !important;
+}
+.rtl .ht_dropdown {
+  margin-left: 21px;
+}
+.rtl .header_right {
+  height: auto;
+}
+.rtl .ht_dropdown.envelope {
+  margin-left: 21px;
+  margin-right: 0;
+}
+.rtl .ht-menu.hide + .main-content, .rtl .ht-menu.hide ~ .footer-area {
+  margin-right: 0;
+}
+.rtl .ht-menu.show + .main-content, .rtl .ht-menu.show ~ .footer-area {
+  margin-right: 0;
+}
+.rtl .ht-menu.hide {
+  left: auto;
+  right: -240px !important;
+}
+.rtl .ht-menu {
+  z-index: 11;
+}
+.rtl .ht-menu.hide {
+  left: auto !important;
+  right: -240px !important;
+}
+.rtl .header_right {
+  height: auto !important;
+}
+.rtl .dropdown-menu-notice {
+  right: auto;
+  left: -10px;
+}
+.rtl nav.tabs .ht_dropdown.infos .dropdown-menu-notice {
+  left: auto;
+}
+}
+
+@media only screen and (max-width: 639px) {
+  .sales-bottom-area .sales-left {
+    margin-top: 0px;
+  }
+  .ht-menu.hide {
+    width: 200px !important;
+    left: -200px !important;
+  }
+  
+  .ht-menu.hide + .main-content, .ht-menu.hide ~ .footer-area {
+    margin-left: 0;
+  }
+  .main-content {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+  .ht_dropdown {
+    margin-right: 21px;
+    z-index: 9
+  }
+  .dropdown-menu-notice {
+    right: 0px;
+    margin-top: 19px;
+    width: 300px;
+    margin: auto;
+    left: 0;
+    top: 61px;
+  }
+  .dropdown-menu-notice.show {
+    top: 53px;
+  }
+  .ht_dropdown {
+	position: initial;
+}
+  .sidebar-top {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    height: 76px;
+    padding-left: 22px;
+    padding-right: 22px;
+    flex: 0 0 200px;
+    box-shadow: none;
+  }
+  .header{
+    box-shadow: 0px 0px 14px 3px #6333EB24;
+  }
+  .ht_dropdown:last-child .dropdown-menu-notice {
+    right: 0;
+  }
+  .logo {
+    padding-left: 0;
+    padding-top: 4px;
+  }
+  .ht-menu.show + .main-content, .ht-menu.show ~ .footer-area {
+    margin-left: 0
+  }
+  .header_notification {
+    visibility: hidden;
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    right: 0;
+    top: 100%;
+    justify-content: space-between;
+    padding-right: 1.75rem;
+    padding-left: 1.75rem;
+    transition: all 0.3s ease 0s;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    box-shadow: 3px 5px 20px #00000018;
+    background: #fff;
+  }
+  .header_notification.show {
+    visibility: visible;
+    opacity: 1;
+    top: 100%;
+  }
+.mobile-header-nav {
+	display: block;
+}
+nav.tabs .ht_dropdown.infos {
+	position: relative;
+}
+.ht-menu {
+  width: 182px !important;
+  top: 76px;
+  padding-left: 23px;
+}
+.ht-menu .menu-wrap-box {
+  padding-right: 20px;
+}
+.ht-menu-menu > ul > li > a span {
+  margin-left: 13px;
+}
+
+.ht-menu {
+  width: 200px !important;
+  top: 76px;
+  padding-left: 23px;
+  height: calc(100vh - 76px);
+}
+.ht-menu .menu-wrap-box {
+  padding-right: 20px;
+}
+.ht-menu-menu > ul > li > a span {
+  margin-left: 13px;
+}
+.ht-menu-sub-menu {
+  padding-left: 0;
+}
+.ht-menu-menu > ul > li > a span.new_tag {
+  margin-left: 13px;
+  width: 42px;
+}
+.ht-menu.hide + .main-content .chart canvas#myChart, .ht-menu.hide + .main-content .chart canvas#myChart4 {
+  width: 100% !important;
+  min-height: 200px !important;
+  height: 200px !important;
+}
+  
+.sales-left, .sales-right, .sales-middle {
+  padding-top: 23px;
+  padding-bottom: 12px;
+  padding-left: 21px;
+  padding-right: 21px;
+}
+.sales-area .card-header h4, .sales-bottom-area .card-header h4 {
+  padding-left: 0;
+}
+
+.sales-bottom-area .sales-left {
+	margin-top: 0px;
+	padding-left: 0;
+	padding-right: 10px;
+}
+.sales-area .sales-right {
+  padding-bottom: 30px;
+  padding-right: 24px;
+}
+  tr th, tr td {
+	width: auto !important;
+	padding: 12px 30px 12px 0 !important;
+  width: 67px;
+}
+tr th:last-child, tr td:last-child {
+  max-width: 71px !important;
+}
+tr td:first-child, tr th:first-child {
+	width: auto !important;
+	min-width: 175px !important;
+    padding-right: 30px !important;
+}
+
+nav.dtabs button {
+  margin: 0 10px;
+}
+  .dtabs {
+	flex-direction: row;
+}
+.dtab-content {
+  padding-top: 26px;
+  padding-bottom: 4px;
+}
+.chart-txt {
+  padding-top: 22px;
+}
+#myChart3 {
+  margin-top: 44px;
+  height: 253px !important;
+}
+.sales-bottom-area .card-header h4 {
+  padding-left: 19px;
+}
+
+#donutChart, #donutChart2, #donutChart3 {
+  width: 140px;
+  height: 140px;
+}
+
+
+.search_button {
+	padding: .90rem .5rem;
+	cursor: pointer;
+}
+
+.search_form {
+  position: initial;
+  margin-right: 3px;
+}
+
+.mobile-author-actions.show, .mobile-search.show {
+	transform: translateY(0);
+}
+.mobile-menu-toggle {
+  margin-top: 0px;
+}
+
+.dropdown-menu-notice ul li a {
+  padding: 10px 7px;
+}
+.dropdown-menu-notice ul li a .image, .dropdown-menu-notice ul li a .icon {
+  margin-right: 11px;
+}
+.inner-notice {
+  padding: 11px 0 0 0;
+}
+  
+.header_button.export .ht_dropdown.infos .dropdown-menu-notice {
+  width: 130px;
+  min-width: 130px;
+}
+.header_button .ht_dropdown.infos .dropdown-menu-notice ul li {
+  margin: 5px 0;
+}
+.header_button .ht_dropdown.infos .dropdown-menu-notice ul li:last-child a {
+  margin-top: 0;
+}
+  .header_button .ht_dropdown.infos .dropdown-menu-notice::before {
+    right: auto;
+    left: 20px
+  }
+.ht_dropdown:last-child .dropdown-menu-notice {
+	left: auto;
+	right: 22px;
+}
+
+.header_button .ht_dropdown {
+  position: relative;
+}
+.inner-box {
+  margin-bottom: 19px;
+}
+.header_button .ht_dropdown {
+  margin-left: 0;
+  margin-bottom: 10px;
+}
+.header_button .ht_dropdown:last-child {
+  margin-bottom: 0;
+  margin-right: 0 !important;
+  
+}
+  .header_button .ht_dropdown.infos {
+    margin-left: 0;
+    margin-right: 5px;
+  }
+.header_button .ht_dropdown.infos button {
+  text-align: center;
+  width: 90px;
+  color: #999;
+}
+.title_txt_btn {
+	padding-top: 3px;
+	padding-bottom: 20px;
+}
+  
+.dashboard-info {
+  gap: 10px;
+}
+.single-dash-info {
+  padding-top: 15px;
+  padding-bottom: 17px;
+  padding-left: 22px;
+}
+.header_button .ht_dropdown.infos button span {
+	padding-right: 3px;
+	position: relative;
+}
+.header_search {
+  display: block;
+  background: #fff;
+  width: 100%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: auto;
+  box-shadow: 3px 5px 20px #00000018;
+  height: 76px;
+  border-radius: 0 0 4px 4px;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 999;
+  transition: all 0.3s ease;
+  transform: translateY(-100%);
+}
+  .header_search.show {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+  }
+.header_search input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 76px;
+  padding: 0 21px;
+}
+.header-search-close {
+  position: absolute;
+  right: 27px;
+  top: 0;
+  line-height: 47px;
+  height: 76px;
+}
+.header-search-close span {
+  line-height: 47px;
+  color: #666;
+}
+
+.sales-left {
+  padding-left: 6px;
+  padding-right: 10px;
+  margin-bottom: 30px;
+}
+.sales-area .sales-left .card-header h4 {
+  padding-left: 15px;
+}
+.piechart canvas, .piechart3 canvas {
+  width: 122px;
+  height: 122px;
+}
+.piechart2 canvas, .piechart4 canvas {
+  width: 102px;
+}
+.single_pie_chart:last-child .pie_chart_txt {
+	padding-top: 0;
+	margin-top: -10px;
+}
+.piechart2, .piechart4 {
+	top: 5px;
+}
+.pie_chart_txt {
+	padding-top: 16px;
+}
+.hidden-card {
+  display: none;
+}
+
+.sales-bottom-area .sales-left {
+  margin-top: 30px;
+}
+.sales-bottom-area {
+  margin-bottom: 0;
+}
+.footer-area {
+  padding-top: 5px;
+}
+
+.tabs {
+  flex-direction: row;
+}
+nav.tabs button {
+  margin: 0 20px 0 0;
+}
+.sales-bottom-area .sales-right {
+  padding-top: 23px;
+  padding-left: 21px;
+  padding-right: 25px;
+  z-index: 9;
+  position: relative;
+}
+  .tab-content {
+	padding-top: 0px;
+}
+#panels {
+	display: block;
+	width: 100%;
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+.sales-bottom-area .sales-right .inner-notice {
+  padding: 8px 8px 8px 8px;
+}
+.sales-bottom-area .sales-right .ht_dropdown.infos .dropdown-menu-notice ul li {
+  margin: 6px 0;
+}
+.sales-bottom-area .sales-right .dropdown-menu-notice ul li:last-child a {
+  margin-top: 0;
+}
+nav.tabs .ht_dropdown.infos .dropdown-menu-notice {
+  top: 37px;
+  right: 0;
+}
+.single_pie_chart:last-child .pie_chart_txt {
+  margin-top: 29px !important;
+}
+.single_pie_chart:last-child .piechart2, .single_pie_chart:last-child .piechart4 {
+  top: 19px;
+}
+.horizontal-area .ht-menu .ht-menu-menu > ul > li > a > span:nth-child(2) {
+  display: block;
+  line-height: 30px;
+  margin-left: 2px;
+}
+.horizontal-area .ht-menu.hide {
+  width: 100% !important;
+  left: 0 !important;
+	width: 240px !important;
+	left: -240px !important;
+}
+.horizontal-area .logo {
+	padding-left: 0;
+	padding-top: 5px;
+}
+.horizontal-area .ht-menu .ht-menu-menu > ul > li > a span.material-icons {
+  background: transparent;
+  margin-left: 10px;
+}
+.horizontal-area .has-sub-menu > a::before {
+  display: block !important;
+  top: 13px;
+}
+.horizontal-area .ht-menu-menu > ul > li > a {
+	margin-right: 0px;
+	padding-right: 20px;
+	padding-top: 17px;
+	padding-bottom: 17px;
+}
+.horizontal-area .sidebar-top {
+	padding: 0px;
+	flex: 0 0 144px;
+	margin-left: 0;
+}
+.horizontal-area .ht-menu .ht-menu-sub-menu {
+	box-shadow: 0 6px 20px rgba(0, 0, 0, .1);
+	padding-left: 0;
+	width: 100%;
+	position: relative;
+	right: auto;
+	left: 0;
+	float: none;
+	background: transparent;
+	box-shadow: none;
+	border-radius: 0;
+	padding-top: 0;
+	top: 0;
+	padding-bottom: 0;
+}
+.horizontal-area {
+	width: 100%;
+  padding: 0 15px;
+}
+.horizontal-area .header {
+  margin-top: 17px;
+  box-shadow: none;
+}
+.mobile-menu-toggle {
+  margin-top: 0;
+}
+.side-menu-toggle {
+  height: 41px;
+  margin-right: 13px;
+}
+.horizontal-area .ht-menu {
+	width: 200px !important;
+	height: 100%;
+	top: 0;
+	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
+	border-radius: 0;
+	padding: 26px 0 0 24px;
+	left: 0;
+	position: fixed;
+	background: #fff;
+	z-index: 99;
+}
+.horizontal-area .ht-menu .menu-wrap-box {
+	height: 100%;
+}
+.horizontal-area .ht-menu-menu > ul {
+	display: block;
+}
+.horizontal-area .has-sub-menu {
+	float: none;
+	margin: 3px 0;
+}
+.horizontal-area .menu-wrap-box h3 {
+  margin-bottom: 20px;
+}
+.horizontal-area .ht-menu-menu > ul > li > a {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.horizontal-area .ht-menu-menu > ul > li > a span {
+  margin-left: 0;
+  margin-right: 11px;
+}
+.horizontal-area .menu-wrap-box h3 {
+	margin-top: 32px;
+}
+.horizontal-area .ht-menu.show .side-menu-close {
+	right: -40px;
+	opacity: 1;
+	visibility: visible;
+}
+.horizontal-area .side-menu-toggle {
+	height: 46px;
+	margin-right: 13px;
+}
+.horizontal-area .main-content {
+	padding: 0;
+}
+.horizontal-area .header_notification {
+  top: 9% !important;
+  z-index: 9;
+}
+
+.horizontal-area .dropdown-menu-notice {
+  z-index: 9;
+}
+.title_txt_btn {
+  z-index: 0;
+  position: relative;
+}
+.horizontal-area .ht-menu .menu-wrap-box h3 {
+  display: block;
+}
+.horizontal-area .ht-menu .ht-menu-menu > ul > li > a span.material-icons {
+  width: auto;
+  height: auto;
+  line-height: 23px;
+}
+.horizontal-area .ht-menu .ht-menu-sub-menu li a {
+	padding: 6px 0 6px 36px;
+}
+.ht-menu-sub-menu li a {
+  padding: 5px 0 5px 26px;
+}
+.ht-menu.hide .ht-menu-sub-menu {
+  display: none !important;
+}
+.ht-menu.hide .ht-menu-menu > ul > li > a > span:nth-child(2) {
+  display: block;
+}
+
+.ht-menu.hide .menu-wrap-box h3 {
+  display: block;
+}
+.ht-menu.hide .ht-menu-menu > ul > li > a span.material-icons {
+  width: auto;
+  height: auto;
+  border-radius: 0;
+  text-align: left;
+  line-height: 20px;
+}
+.dark .header_notification {
+  background: #00155A;
+}
+.dark .search_box input {
+  background: #00155A;
+}
+.piechart3 {
+	display: block;
+	margin: auto;
+}
+.dark .footer-area {
+	padding-top: 29px;
+}
+.dark .sales-bottom-area .card-header h4 {
+  margin-bottom: 10px;
+}
+
+.rtl .logo {
+  padding-right: 0;
+}
+.rtl .sidebar-top {
+  padding-right: 22px;
+}
+.rtl .side-menu-toggle {
+  margin-right: 0;
+  margin-left: 13px;
+}
+.rtl .header_right {
+  height: auto;
+  padding-right: 0;
+  padding-left: 1.75rem;
+}
+.rtl .search_form {
+  margin-right: 0;
+  margin-left: 3px;
+}
+
+.rtl .search_box input {
+  padding: 0 21px;
+}
+.rtl .header-search-close {
+  right: auto;
+  left: 27px;
+}
+
+.rtl .ht_dropdown {
+  margin-left: 21px;
+}
+.rtl .ht_dropdown.envelope {
+  margin-right: 0;
+  margin-left: 21px;
+}
+.rtl .ht_dropdown.infos.profile_settings .dropdown-menu-notice {
+  right: auto;
+  left: 22px;
+}
+.rtl .ht-menu.hide {
+  left: auto !important;
+  right: -200px !important;
+}
+.rtl .ht-menu.hide + .main-content, .rtl .ht-menu.hide ~ .footer-area {
+  margin-right: 0;
+}
+.rtl .ht-menu.show + .main-content, .rtl .ht-menu.show ~ .footer-area {
+  margin-right: 0;
+}
+.chart canvas#myChart, .chart canvas#myChart4 {
+	min-height: auto !important;
+}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 430px) {
+  .footer-area > .flex {
+    display: block;
+  }
+  
+.footer-nav ul {
+  justify-content: center;
+}
+.copyright {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.footer-nav ul li {
+  margin: 0 13px;
+}
+}
+@media only screen and (min-width: 500px) and (max-width: 639px) {
+
+  .header_button .ht_dropdown.infos button {
+    width: 102px;
+    margin-right: 5px;
+  }
+  .tab-title {
+    display: block;
+  }
+  nav.tabs button {
+    margin: 0 36px 0 0;
+  }
+  nav.dtabs button {
+    margin: 0 12px;
+  }
+  .chart-txt {
+    width: 66%;
+    margin: auto;
+  }
+  
+.header_notification {
+  right: 42px;
+  top: 32px;
+  justify-content: end;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: -10px;
+  box-shadow: none;
+  background: transparent;
+}
+tr th:last-child, tr td:last-child {
+	max-width: 86px !important;
+}
+.header_notification.show {
+	top: 42%;
+	padding-right: 61px;
+}
+.horizontal-area .header_notification {
+	top: 4% !important;
+}
+
+}

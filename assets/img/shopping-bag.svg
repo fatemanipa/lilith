@@ -1,0 +1,12 @@
+<svg id="shopping-bag" xmlns="http://www.w3.org/2000/svg" width="18.385" height="19.187" viewBox="0 0 18.385 23.187">
+  <g id="Group_6" data-name="Group 6" transform="translate(0 4.574)">
+    <g id="Group_5" data-name="Group 5">
+      <path id="Path_7" data-name="Path 7" d="M71.4,115.552,70.362,102.5a1.63,1.63,0,0,0-1.618-1.5H66.7v3.031a.679.679,0,0,1-1.358,0V101H59.092v3.031a.679.679,0,0,1-1.358,0V101H55.689a1.63,1.63,0,0,0-1.618,1.5l-1.036,13.051a3.776,3.776,0,0,0,3.764,4.064H67.633a3.775,3.775,0,0,0,3.764-4.066Zm-6.122-6.645-3.512,3.512a.679.679,0,0,1-.961,0l-1.646-1.646a.679.679,0,0,1,.96-.96l1.166,1.166,3.032-3.032a.679.679,0,1,1,.96.961Z" transform="translate(-53.023 -101.005)" fill="#fff"/>
+    </g>
+  </g>
+  <g id="Group_8" data-name="Group 8" transform="translate(4.711)">
+    <g id="Group_7" data-name="Group 7" transform="translate(0)">
+      <path id="Path_8" data-name="Path 8" d="M161.521,0a4.487,4.487,0,0,0-4.482,4.482v.092H158.4V4.482a3.124,3.124,0,1,1,6.248,0v.092H166V4.482A4.487,4.487,0,0,0,161.521,0Z" transform="translate(-157.039)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
