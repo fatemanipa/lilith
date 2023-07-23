@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lilith - Tailwind HTML Admin Template</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+    
+    <!-- Icon Font CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="assets/css/plugin.css">
+    <!-- Tailwind CSS -->
+    <link rel="stylesheet" href="assets/css/tailwind.min.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body class="rtl">
+    <!-- Header Start -->
+    <div class="header flex fixed w-full z-20 top-0 flex-row-reverse">
+        <!-- Sidebar Top Start -->
+        <div class="sidebar-top flex pt-8 pb-5 z-20 bg-white dark-sidebar-top justify-end">
+            <div class="logo">
+                <a href="index-dark.html" class="inline-block"><img src="assets/img/logo-white.svg" alt=""></a>
+            </div>
+            <button class="side-menu-toggle h-9">
+                <img src="assets/img/nav-rtl.svg" alt="">
+            </button>
+        </div>
+        <!-- Sidebar Top End -->
+        <!-- Header Right Start -->
+        <div class="header_right flex flex-row-reverse sm:justify-between justify-end sm:w-screen w-full pr-7 sm:pl-7 pl-0 bg-white items-center">
+            <div class="search_form">
+                <form action="#" class="h-10 leading-10 search_box">
+                    <input type="text" placeholder="Search..." class="sm:inline-block hidden">
+                    <span class="inline-block search_button pr-2"><img src="assets/img/search.svg" alt=""></span>
+                    <div class="header_search sm:hidden block">
+                        <input type="text" placeholder="Search...">
+                        <button class="header-search-close"><span class="material-icons">close</span></button>
+                    </div>
+                </form>
+            </div>
+            <!-- Header Notification Start -->
+            <div class="header_notification flex mail_box flex-row-reverse">
+                <div class="ht_dropdown notification_box relative">
+                    <a href="#" class="toggle text-gray-300 relative text-2xl hover:text-purple-500 duration-300">
+                        <span class="material-icons pl-0">notifications</span>
+                        <span class="notify absolute block rounded-full w-2 h-2 -left-2 bg-red-400 pl-0"></span>
+                    </a>
+                    <div class="dropdown-menu-notice list-none m-0 p-0 absolute rounded bg-white border-0 list-none top-0 left-0 block opacity-0 invisible">
+                        <h5 class="title text-center ml-2 mr-2 mt-2 font-semibold">Notifications<span class="text-white font-semibold rounded-full inline-block">3</span></h5>
+                        <div class="inner-notice">
+                            <ul>
+                                <li>
+                                    <a href="#" class="relative flex flex-row-reverse">
+                                        <div class="icon text-white w-8 h-8 rounded-full text-center order float-right relative">
+                                            <span class="material-icons text-center p-0">shopping_basket</span>
+                                        </div>
+                                        <div class="content overflow-hidden">
+                                            <h6 class="font-semibold">Your order is placed</h6>
+                                            <p>If several language can made..<span class="time font-semibold">.2m</span></p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="relative flex flex-row-reverse">
+                                        <div class="icon text-white w-8 h-8 rounded-full text-center order float-right relative">
+                                            <span class="material-icons text-center p-0">shopping_basket</span>
+                                        </div>
+                                        <div class="content overflow-hidden">
+                                            <h6 class="font-semibold">Your order is pending</h6>
+                                            <p>If several language can made..<span class="time font-semibold">.2m</span></p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="relative flex flex-row-reverse">
+                                        <div class="icon text-white w-8 h-8 rounded-full text-center payment float-right relative">
+                                            <span class="material-icons text-center p-0">subtitles</span>
+                                        </div>
+                                        <div class="content overflow-hidden">
+                                            <h6 class="font-semibold">Payment Done!</h6>
+                                            <p>If several language can made..<span class="time font-semibold">.2m</span></p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="relative text-center font-semibold block">View More</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="ht_dropdown relative envelope">
+                    <a href="#" class="toggle text-gray-300 relative text-2xl hover:text-purple-500 duration-300">
+                        <span class="material-icons pl-0">mail_outline</span>
+                        <span class="notify absolute block rounded-full w-2 h-2 -left-2 bg-red-400 pl-0"></span>
+                    </a>
+                    <div class="dropdown-menu-notice list-none m-0 p-0 absolute rounded bg-white border-0 list-none top-0 left-0 block opacity-0 invisible">
+                        <h5 class="title text-center ml-2 mr-2 mt-2 font-semibold">Message<span class="text-white font-semibold rounded-full inline-block">3</span></h5>
+                        <div class="inner-notice">
+                            <ul>
+                                <li class="online">
+                                    <a href="#" class="relative flex flex-row-reverse">
+                                        <div class="image float-right relative">
+                                            <img src="assets/img/face1.png" alt="" class="rounded-full">
+                                        </div>
+                                        <div class="content overflow-hidden">
+                                            <h6 class="font-semibold"><span class="num-notice font-semibold text-white rounded-full inline-block pt-0 pl-0 text-center">2</span> Jon Marshal</h6>
+                                            <p>Hey How are your mark..?<span class="time font-semibold">.2m</span></p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="relative flex flex-row-reverse">
+                                        <div class="image float-right relative">
+                                            <img src="assets/img/face2.png" alt="" class="rounded-full">
+                                        </div>
+                                        <div class="content overflow-hidden">
+                                            <h6 class="font-semibold">Mishel DL</h6>
+                                            <p>Excuse me do you have an...<span class="time font-semibold">.3m</span></p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="online">
+                                    <a href="#" class="relative flex flex-row-reverse">
+                                        <div class="image float-right relative">
+                                            <img src="assets/img/face3.png" alt="" class="rounded-full">
+                                        </div>
+                                        <div class="content overflow-hidden">
+                                            <h6 class="font-semibold"><span class="num-notice font-semibold text-white rounded-full inline-block pt-0 pl-0 text-center">5</span> Albart</h6>
+                                            <p>I don't have enough mone...<span class="time font-semibold">.1h</span></p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="relative block text-center font-semibold block">View All Message</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="ht_dropdown lang relative">
+                    <a href="#" class="toggle text-gray-300 relative text-2xl hover:text-purple-500 duration-300">
+                        <span class="material-icons pl-0">translate</span>
+                    </a>
+                    <div class="dropdown-menu-notice list-none m-0 p-0 absolute rounded bg-white border-0 list-none top-0 left-0 block opacity-0 invisible">
+                        <div class="inner-notice">
+                            <ul>
+                                <li>
+                                    <button type="button" class="flex"><img src="assets/img/english.png" alt=""> English</button>
+                                </li>
+                                <li>
+                                    <button type="button" class="flex"><img src="assets/img/spanish.png" alt=""> Spanish</button>
+                                </li>
+                                <li>
+                                    <button type="button" class="flex"><img src="assets/img/german.png" alt=""> German</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="ht_dropdown set-infos relative">
+                    <a href="#" class="toggle text-gray-300 relative text-2xl hover:text-purple-500 duration-300">
+                        <span class="material-icons pl-0">brightness_low</span>
+                    </a>
+                    <div class="dropdown-menu-notice list-none m-0 p-0 absolute rounded bg-white border-0 list-none top-0 left-0 block opacity-0 invisible">
+                        <h5 class="title text-center ml-2 mr-2 mt-2 font-semibold">Settings</h5>
+                        <h5 class="title text-center ml-2 mr-2 mt-2 sub-txt">Change Layout</h5>
+                        <div class="inner-notice">
+                            <ul>
+                                <li>
+                                    <a href="index-dark.html" class="relative flex flex-row-reverse p-0 justify-center">
+                                        <img src="assets/img/dark.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="index.html" class="relative flex flex-row-reverse p-0 justify-center">
+                                        <img src="assets/img/Dark_sidebar.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="relative flex flex-row-reverse text-center font-semibold block mb-0">View More</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="ht_dropdown infos profile_settings relative">
+                    <a href="#" class="toggle"><img src="assets/img/user.png" alt=""></a>
+                    <div class="dropdown-menu-notice list-none m-0 p-0 absolute rounded bg-white border-0 list-none top-0 left-0 block opacity-0 invisible">
+                        <h5 class="title ml-2 mr-2 mt-2 font-semibold"><a href="#">Maria Lisa</a></h5>
+                        <span class="block">Welcome Back!</span>
+                        <div class="inner-notice">
+                            <ul>
+                                <li>
+                                    <a href="#" class="relative flex flex-row-reverse"><span class="material-icons block">person</span> Profile</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="relative flex flex-row-reverse"><span class="material-icons block">subtitles</span> My wallet</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="relative flex flex-row-reverse"><span class="material-icons block">brightness_low</span> Settings</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="relative flex flex-row-reverse"><span class="material-icons block">schedule</span> Activity</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="relative flex flex-row-reverse"><span class="material-icons block">lock</span> Lock Screen</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="relative flex flex-row-reverse text-left block font-medium"><span class="material-icons">logout</span> Logout</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- Header Notification Start -->
+            <!-- Mobile Header Nav -->
+            <div class="mobile-header-nav">
+                <button class="mobile-menu-toggle">
+                    <span class="option w-1 h-1 block rounded-full transition">Circle</span>
+                    <span class="option w-1 h-1 block rounded-full transition">Circle</span>
+                    <span class="option w-1 h-1 block rounded-full transition">Circle</span>
+                </button>
+            </div>
+        </div><!-- Header Right End -->
+    </div>
+    <!-- Header End -->
+
+    <!-- Content Area Start -->
+    <div class="content-area pt-24">
+        <!-- Sidebar Menu Start -->
+        <div class="ht-menu vertical-menu show z-10 bg-white fixed right-0 dark-sidebar">
+            <button class="side-menu-close border-0 bg-white text-white absolute w-10 h-10 right-0 text-center opacity-0 invisible"><i class="zmdi zmdi-close"></i></button>
+            <!-- Sidebar Menu Inner Start -->
+            <div class="menu-wrap-box custom-scroll h-full">
+                <h3 class="uppercase font-semibold">Main Menu</h3>
+                <nav class="ht-menu-menu float-left">
+                    <ul>
+                        <li class="has-sub-menu relative w-full float-right">
+                            <a href="#" class="relative flex flex-row-reverse">
+                                <span class="material-icons">home</span><span>Dashboard</span>
+                            </a>
+                            <ul class="ht-menu-sub-menu float-right w-full hidden list-none">
+                                <li><a href="#" class="relative flex flex-row-reverse"><span>E-commerce</span></a></li>
+                                <li><a href="#" class="relative flex flex-row-reverse"><span>Cryptocurrency</span></a></li>
+                            </ul>
+                        </li>
+                        <li class="has-sub-menu relative w-full float-right">
+                            <a href="#" class="relative flex flex-row-reverse">
+                                <span class="material-icons">shopping_basket</span><span>eCommerce</span>
+                            </a>
+                            <ul class="ht-menu-sub-menu float-right w-full hidden list-none">
+                                <li><a href="products.html" class="relative flex flex-row-reverse"><span>Products</span></a></li>
+                                <li><a href="#" class="relative flex flex-row-reverse"><span>Customers</span></a></li>
+                                <li><a href="#" class="relative flex flex-row-reverse"><span>Coupons</span></a></li>
+                                <li><a href="#" class="relative flex flex-row-reverse"><span>Orders</span></a></li>
+                                <li><a href="#" class="relative flex flex-row-reverse"><span>Settings</span></a></li>
+                            </ul>
+                        </li>
+                        <li class="has-sub-menu relative w-full float-right">
+                            <a href="#" class="relative flex flex-row-reverse">
+                                <span class="material-icons">view_quilt</span>
+                                <span>Layouts</span>
+                                <span class="new_tag inline-block text-white text-center">New</span>
+                            </a>
+                            <ul class="ht-menu-sub-menu float-right w-full hidden list-none">
+                                <li><a href="index.html" class="relative flex flex-row-reverse"><span>Light</span></a></li>
+                                <li><a href="index-dark.html" class="relative flex flex-row-reverse"><span>Dark</span></a></li>
+                                <li><a href="index-dark-sidebar.html" class="relative flex flex-row-reverse"><span>Dark Sidebar</span></a></li>
+                                <li><a href="index-horizontal.html" class="relative flex flex-row-reverse"><span>Horizontal</span></a></li>
+                                <li><a href="index-horizontal-dark.html" class="relative flex flex-row-reverse"><span>Dark Horizontal</span></a></li>
+                                <li><a href="index-rtl.html" class="relative flex flex-row-reverse"><span>RTL</span></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <h3 class="uppercase font-semibold">Componants</h3>
+                <nav class="ht-menu-menu float-left">
+                    <ul class="list-none m-0 p-0">
+                        <li class="has-sub-menu relative w-full float-right">
+                            <a href="#" class="relative flex flex-row-reverse">
+                                <span class="material-icons">airplay</span><span>UI Componants</span>
+                            </a>
+                            <ul class="ht-menu-sub-menu float-right w-full hidden list-none">
+                                <li><a href="#" class="relative flex flex-row-reverse"><span>Alart</span></a></li>
+                                <li><a href="#" class="relative flex flex-row-reverse"><span>Buttons</span></a></li>
+                                <li><a href="#" class="relative flex flex-row-reverse"><span>Grid</span></a></li>
+                                <li><a href="#" class="relative flex flex-row-reverse"><span>Sweet Alart</span></a></li>
+                                <li><a href="#" class="relative flex flex-row-reverse"><span>Colors</span></a></li>
+                                <li><a href="#" class="relative flex flex-row-reverse"><span>Rating</span></a></li>
+                            </ul>
+                        </li>
+                        <li class="has-sub-menu relative w-full float-right">
+                            <a href="#" class="relative flex flex-row-reverse"><span class="material-icons">description</span><span>Forms</span></a>
+                            <ul class="ht-menu-sub-menu float-right w-full hidden list-none">
+                                <li><a href="#" class="relative flex flex-row-reverse"><span>Forms Style 1</span></a></li>
+                                <li><a href="#" class="relative flex flex-row-reverse"><span>Forms Style 2</span></a></li>
+                            </ul>
+                        </li>
+                        <li class="has-sub-menu relative w-full float-right">
+                            <a href="#" class="relative flex flex-row-reverse"><span class="material-icons">view_module</span><span>Table</span></a>
+                            <ul class="ht-menu-sub-menu float-right w-full hidden list-none">
+                                <li><a href="#" class="relative flex flex-row-reverse"><span>Table Style 1</span></a></li>
+                                <li><a href="#" class="relative flex flex-row-reverse"><span>Table Style 2</span></a></li>
+                            </ul>
+                        </li>
+                        <li class="has-sub-menu relative w-full float-right">
+                            <a href="#" class="relative flex flex-row-reverse"><span class="material-icons">equalizer</span><span>Charts</span></a>
+                            <ul class="ht-menu-sub-menu float-right w-full hidden list-none">
+                                <li><a href="#" class="relative flex flex-row-reverse"><span>Charts Style 1</span></a></li>
+                                <li><a href="#" class="relative flex flex-row-reverse"><span>Charts Style 2</span></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <h3 class="uppercase font-semibold">Applications</h3>
+                <nav class="ht-menu-menu float-left">
+                    <ul>
+                        <li class="has-sub-menu relative w-full float-right">
+                            <a href="#" class="relative flex flex-row-reverse"><span class="material-icons">email</span><span>Email</span></a>
+                            <ul class="ht-menu-sub-menu float-right w-full hidden list-none">
+                                <li><a href="#" class="relative flex flex-row-reverse"><span>All</span></a></li>
+                                <li><a href="#" class="relative flex flex-row-reverse"><span>Unread</span></a></li>
+                                <li><a href="#" class="relative flex flex-row-reverse"><span>Spam</span></a></li>
+                            </ul>
+                        </li>
+                        <li class="has-sub-menu relative w-full float-right">
+                            <a href="#" class="relative flex flex-row-reverse"><span class="material-icons">chat</span><span>Chat</span></a>
+                            <ul class="ht-menu-sub-menu float-right w-full hidden list-none">
+                                <li><a href="#" class="relative flex flex-row-reverse"><span>Online</span></a></li>
+                                <li><a href="#" class="relative flex flex-row-reverse"><span>Offline</span></a></li>
+                            </ul>
+                        </li>
+                        <li class="has-sub-menu relative w-full float-right">
+                            <a href="#" class="relative flex flex-row-reverse"><span class="material-icons">event</span><span>Calender</span></a>
+                            <ul class="ht-menu-sub-menu float-right w-full hidden list-none">
+                                <li><a href="#" class="relative flex flex-row-reverse"><span>Booked</span></a></li>
+                                <li><a href="#" class="relative flex flex-row-reverse"><span>Available</span></a></li>
+                            </ul>
+                        </li>
+                        <li class="has-sub-menu relative w-full float-right">
+                            <a href="#" class="relative flex flex-row-reverse"><span class="material-icons">contacts</span><span>Contact</span></a>
+                            <ul class="ht-menu-sub-menu float-right w-full hidden list-none">
+                                <li><a href="#" class="relative flex flex-row-reverse"><span>Harry</span></a></li>
+                                <li><a href="#" class="relative flex flex-row-reverse"><span>Charles</span></a></li>
+                                <li><a href="#" class="relative flex flex-row-reverse"><span>Kitty</span></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div><!-- Sidebar Menu Inner End -->
+        </div><!-- Sidebar Menu End -->
+        <!-- Main Content Start -->
+        <div class="main-content pr-7 pl-7">
+            <!-- Title Text & Buttons -->
+            <div class="title_txt_btn sm:flex justify-between items-center">
+                <div class="inner-box">
+                    <h3 class="font-semibold">Ecommerce Dashboard</h3>
+                </div>
+                <div class="header_button flex export">
+                    <div class="ht_dropdown infos relative">
+                        <button class="toggle text-gray-300 bg-white text-center flex justify-center whitespace-nowrap overflow-hidden relative text-2xl hover:text-purple-500 duration-300">
+                            <span class="material-icons btn-large block transition-all">play_for_work</span> Export
+                        </button>
+                        <div class="dropdown-menu-notice list-none m-0 p-0 absolute rounded bg-white border-0 list-none top-0 left-0 block opacity-0 invisible">
+                            <div class="inner-notice">
+                                <ul>
+                                    <li>
+                                        <a href="#" class="relative flex flex-row-reverse"><span class="material-icons block">image</span> Jpeg</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="relative flex flex-row-reverse"><span class="material-icons block">picture_as_pdf</span> PDF</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="relative flex flex-row-reverse"><span class="material-icons block">file_download</span> Sheets</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ht_dropdown infos relative">
+                        <button class="toggle text-gray-300 bg-white text-center flex justify-center whitespace-nowrap overflow-hidden relative text-2xl hover:text-purple-500 duration-300">
+                            <span class="material-icons block transition-all">share</span> Share
+                        </button>
+                        <div class="dropdown-menu-notice list-none m-0 p-0 absolute rounded bg-white border-0 list-none top-0 left-0 block opacity-0 invisible">
+                            <div class="inner-notice">
+                                <ul>
+                                    <li><a href="#" class="relative flex flex-row-reverse"><img src="assets/img/facebook.png" alt=""> Facebook</a></li>
+                                    <li><a href="#" class="relative flex flex-row-reverse"><img src="assets/img/twitter.png" alt=""> Twitter</a></li>
+                                    <li><a href="#" class="relative flex flex-row-reverse"><img src="assets/img/linkedin.png" alt=""> Linkedin</a></li>
+                                    <li><a href="#" class="relative flex flex-row-reverse"><img src="assets/img/instagram.png" alt=""> Instagram</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ht_dropdown infos relative">
+                        <button class="toggle active text-gray-300 bg-white text-center flex justify-center whitespace-nowrap overflow-hidden relative text-2xl hover:text-purple-500 duration-300">
+                            <span class="material-icons add_new block transition-all transform rotate-45 relative">close</span> <span class="add-btn-txt z-10">Add New</span>
+                        </button>
+                    </div>
+                </div>
+            </div><!-- Title Text & Buttons -->
+            <!-- Dashboard Info Start -->
+            <div class="dashboard-info grid 2xl:grid-cols-5 xl:grid-cols-3 lg:grid-cols-2 sm:grid-cols-2 gap-7">
+                <!-- Single Dash Info Start -->
+                <div class="single-dash-info bg-white card card-body">
+                    <div class="flex">
+                        <div class="d-info-title flex-1">
+                            <h4 class="purple-txt font-semibold">$12.567k</h4>
+                            <p>Sales</p>
+                        </div>
+                        <div class="single-d-icon c-cyan block text-center rounded-full">
+                            <span class="material-icons block text-white">pie_chart</span>
+                        </div>
+                    </div>
+                    <p class="s-bottom-txt"><span class="purple-txt"><span class="material-icons">north</span>3.56%</span> Since last week</p>
+                </div><!-- Single Dash Info End -->
+                <!-- Single Dash Info Start -->
+                <div class="single-dash-info bg-white card card-body">
+                    <div class="flex">
+                        <div class="d-info-title flex-1">
+                            <h4 class="purple-txt font-semibold">3.568</h4>
+                            <p>Orders</p>
+                        </div>
+                        <div class="single-d-icon c-red block text-center rounded-full">
+                            <span class="material-icons block text-white">shopping_basket</span>
+                        </div>
+                    </div>
+                    <p class="s-bottom-txt"><span class="red-txt"><span class="material-icons">south</span>1.54%</span> Since last week</p>
+                </div><!-- Single Dash Info End -->
+                <!-- Single Dash Info Start -->
+                <div class="single-dash-info bg-white card card-body">
+                    <div class="flex">
+                        <div class="d-info-title flex-1">
+                            <h4 class="purple-txt font-semibold">$56.589k</h4>
+                            <p>Revenue</p>
+                        </div>
+                        <div class="single-d-icon c-blue block text-center rounded-full">
+                            <span class="s-small-icon block text-white"><img src="assets/img/split.svg" alt="" class="m-auto"></span>
+                        </div>
+                    </div>
+                    <p class="s-bottom-txt"><span class="red-txt"><span class="material-icons">south</span>2.65%</span> Since last week</p>
+                </div><!-- Single Dash Info End -->
+                <!-- Single Dash Info Start -->
+                <div class="single-dash-info bg-white card card-body">
+                    <div class="flex">
+                        <div class="d-info-title flex-1">
+                            <h4 class="purple-txt font-semibold">3.145k</h4>
+                            <p>Products</p>
+                        </div>
+                        <div class="single-d-icon c-green block text-center rounded-full">
+                            <span class="s-small-icon block text-white"><img src="assets/img/shopping-bag.svg" alt="" class="m-auto"></span>
+                        </div>
+                    </div>
+                    <p class="s-bottom-txt"><span class="purple-txt"><span class="material-icons">north</span>457 Added</span> Since last week</p>
+                </div><!-- Single Dash Info End -->
+                <!-- Single Dash Info Start -->
+                <div class="single-dash-info bg-white card card-body">
+                    <div class="flex">
+                        <div class="d-info-title flex-1">
+                            <h4 class="purple-txt font-semibold">3.145k</h4>
+                            <p>Review</p>
+                        </div>
+                        <div class="single-d-icon c-orange block text-center rounded-full">
+                            <span class="material-icons block text-white">mode_comment</span>
+                        </div>
+                    </div>
+                    <p class="s-bottom-txt"><span class="purple-txt"><span class="material-icons">north</span>+1.2k Comments</span> last week</p>
+                </div><!-- Single Dash Info End -->
+            </div><!-- Dashboard Info End -->
+            <!-- Sales Area Start -->
+            <div class="sales-area lg:grid lg:grid-cols-5 gap-7">
+                <!-- Sales Left -->
+                <div class="card sales-left lg:col-span-3 bg-white">
+                    <div class="card-header">
+                        <h4 class="card-title font-semibold">User Hit Rate & Sales</h4>
+                    </div>
+                    <div class="chart">
+                        <canvas id="myChart" width="400"></canvas>
+                    </div>
+                </div>
+                <!-- Sales Right -->
+                <div class="sales-right card lg:col-span-2 bg-white">
+                    <div class="card-header">
+                        <h4 class="card-title font-semibold">Target</h4>
+                    </div>
+                    <div class="pie_chart_wrap flex">
+                        <!-- Single Pie Chart Start -->
+                        <div class="single_pie_chart w-1/2 overflow-hidden flex m-auto justify-center text-center">
+                            <div class="piechartWrapper text-center relative m-auto">
+                                <div class="piechart relative text-center block m-auto" data-percent="70">
+                                    <span class="text_violet font-semibold absolute">70%</span>
+                                </div>
+                            </div>
+                            <div class="pie_chart_txt">
+                                <span class="violet block m-auto rounded-full">Color</span>
+                                <h4 class="font-semibold">Weekly Target</h4>
+                                <h3 class="text_violet font-semibold">$4,658</h3>
+                            </div>
+                        </div><!-- Single Pie Chart End -->
+                        <!-- Single Pie Chart Start -->
+                        <div class="single_pie_chart w-1/2 overflow-hidden flex m-auto justify-center text-center">
+                            <div class="piechartWrapper text-center relative m-auto">
+                                <div class="piechart2 relative inline-block text-center m-auto" data-percent="85">
+                                    <span class="text_purple font-semibold absolute">85%</span>
+                                </div>
+                            </div>
+                            <div class="pie_chart_txt">
+                                <span class="purple block m-auto rounded-full">Color</span>
+                                <h4 class="font-semibold">Monthly Target</h4>
+                                <h3 class="text_purple font-semibold">$12,658</h3>
+                            </div>
+                        </div><!-- Single Pie Chart End -->
+                    </div>
+                </div>
+            </div><!-- Sales Area Start -->
+            <!-- Sales Bottom Area Start -->
+            <div class="sales-bottom-area 2xl:grid 2xl:grid-cols-5 gap-7">
+                <div class="2xl:col-span-3 xl:col-span-1">
+                    <div class="grid grid-cols-10 gap-7">
+                        <div class="2xl:col-span-7 col-span-10">
+                            <div class="sales-right card bg-white">
+                                <div class="tab-title sm:flex justify-between">
+                                    <div class="card-header">
+                                        <h4 class="card-title font-semibold">Top Selling Products</h4>
+                                    </div>
+                                    <!-- Tabs Menu Start -->
+                                    <nav class="tabs flex flex-col sm:flex-row">
+                                        <button data-target="panel-1" class="tab active relative font-semibold text-gray-600 block focus:outline-none">
+                                            Today
+                                        </button>
+                                        <button data-target="panel-2" class="tab relative font-semibold text-gray-600 block focus:outline-none">
+                                            Week
+                                        </button>
+                                        <button data-target="panel-3" class="tab relative font-semibold text-gray-600 block focus:outline-none">
+                                            Months
+                                        </button>
+                                        <div class="ht_dropdown infos relative">
+                                            <button class="toggle text-gray-300 relative text-2xl duration-300 h-1 flex justify-between">
+                                                <span class="option w-1 h-1 block rounded-full transition">Circle</span>
+                                                <span class="option w-1 h-1 block rounded-full transition">Circle</span>
+                                                <span class="option w-1 h-1 block rounded-full transition">Circle</span>
+                                            </button>
+                                            <div class="dropdown-menu-notice list-none m-0 p-0 absolute rounded bg-white border-0 list-none top-0 right-0 block opacity-0 hidden">
+                                                <div class="inner-notice">
+                                                    <ul>
+                                                        <li><a href="#" class="relative flex flex-row-reverse">Year 2021</a></li>
+                                                        <li><a href="#" class="relative flex flex-row-reverse">Year 2020</a></li>
+                                                        <li><a href="#" class="relative flex flex-row-reverse">Year 2019</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </nav><!-- Tabs Menu End -->
+                                </div>
+                                <!-- Tab Panel Start -->
+                                <div id="panels" class="tab-panel">
+                                    <div class="panel-1 tab-content hidden active py-5">
+                                        <table class="table table-list w-full"> 
+                                            <thead>
+                                                <tr>
+                                                    <th class="font-semibold text-left">Product Name</th>
+                                                    <th class="font-semibold text-left">Price</th>
+                                                    <th class="font-semibold text-left">Sold</th>
+                                                    <th class="font-semibold text-left">Revenue</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>I phone 12 pro max</td>
+                                                    <td>$1258</td>
+                                                    <td>358</td>
+                                                    <td>$25,478</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Desktop pc</td>
+                                                    <td>$3,678</td>
+                                                    <td>68</td>
+                                                    <td>$11,898</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Wooden Furniture</td>
+                                                    <td>$890</td>
+                                                    <td>54</td>
+                                                    <td>$1258</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Adidas Shoes</td>
+                                                    <td>$220</td>
+                                                    <td>30</td>
+                                                    <td>$815</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>White Trendy T shirt</td>
+                                                    <td>$60</td>
+                                                    <td>254</td>
+                                                    <td>$3874</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Bose Headphone</td>
+                                                    <td>$120</td>
+                                                    <td>780</td>
+                                                    <td>$31,589</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="panel-2 tab-content hidden py-5">
+                                        <table class="table table-list w-full"> 
+                                            <thead>
+                                                <tr>
+                                                    <th class="font-semibold text-left">Product Name</th>
+                                                    <th class="font-semibold text-left">Price</th>
+                                                    <th class="font-semibold text-left">Sold</th>
+                                                    <th class="font-semibold text-left">Revenue</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Desktop pc</td>
+                                                    <td>$3,678</td>
+                                                    <td>68</td>
+                                                    <td>$11,898</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Adidas Shoes</td>
+                                                    <td>$220</td>
+                                                    <td>30</td>
+                                                    <td>$815</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>I phone 12 pro max</td>
+                                                    <td>$1258</td>
+                                                    <td>358</td>
+                                                    <td>$25,478</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Wooden Furniture</td>
+                                                    <td>$890</td>
+                                                    <td>54</td>
+                                                    <td>$1258</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>White Trendy T shirt</td>
+                                                    <td>$60</td>
+                                                    <td>254</td>
+                                                    <td>$3874</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Bose Headphone</td>
+                                                    <td>$120</td>
+                                                    <td>780</td>
+                                                    <td>$31,589</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="panel-3 tab-content hidden py-5">
+                                        <table class="table table-list w-full"> 
+                                            <thead>
+                                                <tr>
+                                                    <th class="font-semibold text-left">Product Name</th>
+                                                    <th class="font-semibold text-left">Price</th>
+                                                    <th class="font-semibold text-left">Sold</th>
+                                                    <th class="font-semibold text-left">Revenue</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Adidas Shoes</td>
+                                                    <td>$220</td>
+                                                    <td>30</td>
+                                                    <td>$815</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>White Trendy T shirt</td>
+                                                    <td>$60</td>
+                                                    <td>254</td>
+                                                    <td>$3874</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Bose Headphone</td>
+                                                    <td>$120</td>
+                                                    <td>780</td>
+                                                    <td>$31,589</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>I phone 12 pro max</td>
+                                                    <td>$1258</td>
+                                                    <td>358</td>
+                                                    <td>$25,478</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Desktop pc</td>
+                                                    <td>$3,678</td>
+                                                    <td>68</td>
+                                                    <td>$11,898</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Wooden Furniture</td>
+                                                    <td>$890</td>
+                                                    <td>54</td>
+                                                    <td>$1258</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div><!-- Tab Panel End -->
+                            </div>
+                        </div>
+                        <div class="2xl:col-span-3 xl:col-span-3 sm:col-span-4 col-span-10">
+                            <div class="sales-middle card bg-white">
+                                <div class="card-header">
+                                    <h4 class="card-title font-semibold text-center">Revenue By Device</h4>
+                                </div>
+                                <!-- Donut Tabs Menu Start -->
+                                <nav class="dtabs flex flex-col justify-center sm:flex-row donutchart">
+                                    <button data-target="panel-4" class="dtab relative font-semibold active text-gray-600 block focus:outline-none">
+                                        Today
+                                    </button>
+                                    <button data-target="panel-5" class="dtab relative font-semibold ext-gray-600 block focus:outline-none">
+                                        Week
+                                    </button>
+                                    <button data-target="panel-6" class="dtab relative font-semibold text-gray-600 block focus:outline-none">
+                                        Months
+                                    </button>
+                                </nav>  <!-- Donut Tabs Menu End -->
+                                <!-- Donut Tab Panel Start -->
+                                <div id="dpanels" class="dtab-panel">
+                                    <div class="panel-4 dtab-content hidden active py-5">
+                                        <div class="chart">
+                                            <canvas id="donutChart" width="184" height="184"></canvas>
+                                        </div> 
+                                        <div class="chart-txt">
+                                            <div class="s-chart-txt flex justify-between">
+                                                <span class=""><span class="violet w-2 h-2 rounded-full block">Color</span>Mobile</span>
+                                                <span class="block">45%</span>
+                                            </div>
+                                            <div class="s-chart-txt flex justify-between">
+                                                <span class=""><span class="purple w-2 h-2 rounded-full block">Color</span>Desktop</span>
+                                                <span class="block">45%</span>
+                                            </div>
+                                            <div class="s-chart-txt flex justify-between">
+                                                <span class=""><span class="blue w-2 h-2 rounded-full block">Color</span>Tablets</span>
+                                                <span class="block">20%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel-5 dtab-content hidden py-5">
+                                        <div class="chart">
+                                            <canvas id="donutChart2" width="184" height="184"></canvas>
+                                        </div> 
+                                        <div class="chart-txt">
+                                            <div class="s-chart-txt flex justify-between">
+                                                <span class=""><span class="violet w-2 h-2 rounded-full block">Color</span>Mobile</span>
+                                                <span class="block">35%</span>
+                                            </div>
+                                            <div class="s-chart-txt flex justify-between">
+                                                <span class=""><span class="purple w-2 h-2 rounded-full block">Color</span>Desktop</span>
+                                                <span class="block">35%</span>
+                                            </div>
+                                            <div class="s-chart-txt flex justify-between">
+                                                <span class=""><span class="blue w-2 h-2 rounded-full block">Color</span>Tablets</span>
+                                                <span class="block">40%</span>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                    <div class="panel-6 dtab-content hidden py-5">
+                                        <div class="chart">
+                                            <canvas id="donutChart3" width="184" height="184"></canvas>
+                                        </div> 
+                                        <div class="chart-txt">
+                                            <div class="s-chart-txt flex justify-between">
+                                                <span class=""><span class="violet w-2 h-2 rounded-full block">Color</span>Mobile</span>
+                                                <span class="block">25%</span>
+                                            </div>
+                                            <div class="s-chart-txt flex justify-between">
+                                                <span class=""><span class="purple w-2 h-2 rounded-full block">Color</span>Desktop</span>
+                                                <span class="block">25%</span>
+                                            </div>
+                                            <div class="s-chart-txt flex justify-between">
+                                                <span class=""><span class="blue w-2 h-2 rounded-full block">Color</span>Tablets</span>
+                                                <span class="block">60%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>  <!-- Donut Tab Panel End -->    
+                            </div>
+                        </div>
+                        <div class="card sales-left hidden-card xl:col-span-7 md:col-span-6 sm:col-span-6 2xl:hidden xl:block">
+                            <div class="card-header">
+                                <h4 class="card-title font-semibold">Sales by Social Media</h4>
+                            </div>
+                            <div class="chart">
+                                <canvas id="myChart3" width="400" height="300"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card sales-left 2xl:col-span-2 2xl:w-full md:w-1/2 bg-white 2xl:block sm:hidden">
+                    <div class="card-header">
+                        <h4 class="card-title font-semibold">Sales by Social Media</h4>
+                    </div>
+                    <div class="chart">
+                        <canvas id="myChart2" width="400" height="300"></canvas>
+                    </div>
+                </div>
+            </div><!-- Sales Bottom Area End -->
+        </div><!-- Main Content End -->
+        <!-- Footer Start -->
+        <footer class="footer-area bg-white pr-7 pl-7">
+            <div class="flex justify-between">
+                <div class="copyright">
+                    <p>2021 @ Dashboard</p>
+                </div>
+                <div class="footer-nav">
+                    <ul class="flex justify-end">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer End -->
+    </div>
+    <!-- Content Area End -->
+    
+    <!-- All js Files Here -->
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <script src="assets/js/chart.js"></script>
+    <script src="assets/js/jquery.easypiechart.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/chart-light.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lilith - Tailwind HTML Admin Template</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+    
+    <!-- Icon Font CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="assets/css/plugin.css">
+    <!-- Tailwind CSS -->
+    <link rel="stylesheet" href="assets/css/tailwind.min.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body class="bg-light">
+    <!-- Header Start -->
+    <div class="header flex fixed w-full z-20 top-0">
+        <!-- Sidebar Top Start -->
+        <div class="sidebar-top flex pt-8 pb-5 px-12 z-20 bg-white">
+            <button class="side-menu-toggle h-9">
+                <img src="assets/img/nav.svg" alt="">
+            </button>
+            <div class="logo pl-11">
+                <a href="index-dark.html" class="inline-block"><img src="assets/img/logo.svg" alt=""></a>
+            </div>
+        </div>
+        <!-- Sidebar Top End -->
+        <!-- Header Right Start -->
+        <div class="header_right flex sm:justify-between justify-end sm:w-screen w-full pr-7 sm:pl-7 pl-0 bg-white items-center">
+            <div class="search_form">
+                <form action="#" class="h-10 leading-10 search_box">
+                    <span class="inline-block search_button pr-2"><img src="assets/img/search.svg" alt=""></span>
+                    <input type="text" placeholder="Search" class="sm:inline-block hidden">
+                    <div class="header_search sm:hidden block">
+                        <input type="text" placeholder="Search">
+                        <button class="header-search-close"><span class="material-icons">close</span></button>
+                    </div>
+                </form>
+            </div>
+            <!-- Header Notification Start -->
+            <div class="header_notification flex mail_box">
+                <div class="ht_dropdown relative">
+                    <a href="#" class="toggle text-gray-300 relative text-2xl hover:text-purple-500 duration-300">
+                        <span class="material-icons pl-0">mail_outline</span>
+                        <span class="notify absolute block rounded-full w-2 h-2 -left-2 bg-red-400 pl-0"></span>
+                    </a>
+                    <div class="dropdown-menu-notice list-none m-0 p-0 absolute rounded p bg-white border-0 list-none top-0 right-0 block opacity-0 invisible">
+                        <h5 class="title text-center ml-2 mr-2 mt-2 font-semibold">Message<span class="text-white font-semibold rounded-full inline-block">3</span></h5>
+                        <div class="inner-notice">
+                            <ul>
+                                <li class="online">
+                                    <a href="#" class="relative flex">
+                                        <div class="image float-left relative">
+                                            <img src="assets/img/face1.png" alt="" class="rounded-full">
+                                        </div>
+                                        <div class="content overflow-hidden">
+                                            <h6 class="font-semibold">Jon Marshal <span class="num-notice font-semibold text-white rounded-full inline-block pt-0 pl-0 text-center">2</span></h6>
+                                            <p>Hey How are your mark..?<span class="time font-semibold">.2m</span></p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="relative flex">
+                                        <div class="image float-left relative">
+                                            <img src="assets/img/face2.png" alt="" class="rounded-full">
+                                        </div>
+                                        <div class="content overflow-hidden">
+                                            <h6 class="font-semibold">Mishel DL</h6>
+                                            <p>Excuse me do you have an...<span class="time font-semibold">.3m</span></p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="online">
+                                    <a href="#" class="relative flex">
+                                        <div class="image float-left relative">
+                                            <img src="assets/img/face3.png" alt="" class="rounded-full">
+                                        </div>
+                                        <div class="content overflow-hidden">
+                                            <h6 class="font-semibold">Albart <span class="num-notice font-semibold text-white rounded-full inline-block pt-0 pl-0 text-center">5</span></h6>
+                                            <p>I don't have enough mone...<span class="time font-semibold">.1h</span></p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="relative block text-center font-semibold block">View All Message</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="ht_dropdown notification_box relative">
+                    <a href="#" class="toggle text-gray-300 relative text-2xl hover:text-purple-500 duration-300">
+                        <span class="material-icons pl-0">notifications</span>
+                        <span class="notify absolute block rounded-full w-2 h-2 -left-2 bg-red-400 pl-0"></span>
+                    </a>
+                    <div class="dropdown-menu-notice list-none m-0 p-0 absolute rounded p bg-white border-0 list-none top-0 right-0 block opacity-0 invisible">
+                        <h5 class="title text-center ml-2 mr-2 mt-2 font-semibold">Notifications<span class="text-white font-semibold rounded-full inline-block">3</span></h5>
+                        <div class="inner-notice">
+                            <ul>
+                                <li>
+                                    <a href="#" class="relative flex">
+                                        <div class="icon text-white w-8 h-8 rounded-full text-center order float-left relative">
+                                            <span class="material-icons text-center p-0">shopping_basket</span>
+                                        </div>
+                                        <div class="content overflow-hidden">
+                                            <h6 class="font-semibold">Your order is placed</h6>
+                                            <p>If several language can made..<span class="time font-semibold">.2m</span></p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="relative flex">
+                                        <div class="icon text-white w-8 h-8 rounded-full text-center order float-left relative">
+                                            <span class="material-icons text-center p-0">shopping_basket</span>
+                                        </div>
+                                        <div class="content overflow-hidden">
+                                            <h6 class="font-semibold">Your order is pending</h6>
+                                            <p>If several language can made..<span class="time font-semibold">.2m</span></p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="relative flex">
+                                        <div class="icon text-white w-8 h-8 rounded-full text-center payment float-left relative">
+                                            <span class="material-icons text-center p-0">subtitles</span>
+                                        </div>
+                                        <div class="content overflow-hidden">
+                                            <h6 class="font-semibold">Payment Done!</h6>
+                                            <p>If several language can made..<span class="time font-semibold">.2m</span></p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="relative text-center font-semibold block">View More</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="ht_dropdown set-infos relative">
+                    <a href="#" class="toggle text-gray-300 relative text-2xl hover:text-purple-500 duration-300">
+                        <span class="material-icons pl-0">brightness_low</span>
+                    </a>
+                    <div class="dropdown-menu-notice list-none m-0 p-0 absolute rounded p bg-white border-0 list-none top-0 right-0 block opacity-0 invisible">
+                        <h5 class="title text-center ml-2 mr-2 mt-2 font-semibold">Settings</h5>
+                        <h5 class="title text-center ml-2 mr-2 mt-2 sub-txt">Change Layout</h5>
+                        <div class="inner-notice">
+                            <ul>
+                                <li>
+                                    <a href="index-dark.html" class="relative flex p-0 justify-center"><img src="assets/img/dark.png" alt=""></a>
+                                </li>
+                                <li>
+                                    <a href="index.html" class="relative flex p-0 justify-center"><img src="assets/img/Dark_sidebar.png" alt=""></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="relative flex text-center font-semibold block mb-0">View More</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="ht_dropdown lang relative">
+                    <a href="#" class="toggle text-gray-300 relative text-2xl hover:text-purple-500 duration-300">
+                        <span class="material-icons pl-0">translate</span>
+                    </a>
+                    <div class="dropdown-menu-notice list-none m-0 p-0 absolute rounded p bg-white border-0 list-none top-0 right-0 block opacity-0 invisible">
+                        <div class="inner-notice">
+                            <ul>
+                                <li>
+                                    <button type="button" class="flex"><img src="assets/img/english.png" alt=""> English</button>
+                                </li>
+                                <li>
+                                    <button type="button" class="flex"><img src="assets/img/spanish.png" alt=""> Spanish</button>
+                                </li>
+                                <li>
+                                    <button type="button" class="flex"><img src="assets/img/german.png" alt=""> German</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="ht_dropdown infos profile_settings relative">
+                    <a href="#" class="toggle"><img src="assets/img/user.png" alt=""></a>
+                    <div class="dropdown-menu-notice list-none m-0 p-0 absolute rounded p bg-white border-0 list-none top-0 right-0 block opacity-0 invisible">
+                        <h5 class="title ml-2 mr-2 mt-2 font-semibold"><a href="#">Maria Lisa</a></h5>
+                        <span class="block">Welcome Back!</span>
+                        <div class="inner-notice">
+                            <ul>
+                                <li><a href="#" class="relative flex"><span class="material-icons block">person</span> Profile</a></li>
+                                <li><a href="#" class="relative flex"><span class="material-icons block">subtitles</span> My wallet</a></li>
+                                <li><a href="#" class="relative flex"><span class="material-icons block">brightness_low</span> Settings</a></li>
+                                <li><a href="#" class="relative flex"><span class="material-icons block">schedule</span> Activity</a></li>
+                                <li><a href="#" class="relative flex"><span class="material-icons block">lock</span> Lock Screen</a></li>
+                                <li><a href="#"  class="relative flex text-left block font-medium"><span class="material-icons">logout</span> Logout</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- Header Notification Start -->
+            <!-- Mobile Header Nav -->
+            <div class="mobile-header-nav">
+                <button class="mobile-menu-toggle">
+                    <span class="option w-1 h-1 block rounded-full transition">Circle</span>
+                    <span class="option w-1 h-1 block rounded-full transition">Circle</span>
+                    <span class="option w-1 h-1 block rounded-full transition">Circle</span>
+                </button>
+            </div>
+        </div><!-- Header Right End -->
+    </div>
+    <!-- Header End -->
+
+    <!-- Content Area Start -->
+    <div class="content-area pt-24">
+        <!-- Sidebar Menu Start -->
+        <div class="ht-menu vertical-menu show z-10 bg-white fixed left-0">
+            <button class="side-menu-close border-0 bg-white text-white absolute w-10 h-10 right-0 text-center opacity-0 invisible"><i class="zmdi zmdi-close"></i></button>
+            <!-- Sidebar Menu Inner Start -->
+            <div class="menu-wrap-box custom-scroll h-full">
+                <h3 class="uppercase font-semibold">Main Menu</h3>
+                <nav class="ht-menu-menu float-left">
+                    <ul>
+                        <li class="has-sub-menu relative w-full float-left">
+                            <a href="#" class="relative flex">
+                                <span class="material-icons">home</span><span>Dashboard</span>
+                            </a>
+                            <ul class="ht-menu-sub-menu float-left w-full hidden list-none">
+                                <li><a href="#" class="relative flex"><span>E-commerce</span></a></li>
+                                <li><a href="#" class="relative flex"><span>Cryptocurrency</span></a></li>
+                            </ul>
+                        </li>
+                        <li class="has-sub-menu relative w-full float-left">
+                            <a href="#" class="relative flex">
+                                <span class="material-icons">shopping_basket</span><span>eCommerce</span>
+                            </a>
+                            <ul class="ht-menu-sub-menu float-left w-full hidden list-none">
+                                <li><a href="products.html" class="relative flex"><span>Products</span></a></li>
+                                <li><a href="#" class="relative flex"><span>Customers</span></a></li>
+                                <li><a href="#" class="relative flex"><span>Coupons</span></a></li>
+                                <li><a href="#" class="relative flex"><span>Orders</span></a></li>
+                                <li><a href="#" class="relative flex"><span>Settings</span></a></li>
+                            </ul>
+                        </li>
+                        <li class="has-sub-menu relative w-full float-left">
+                            <a href="#" class="relative flex">
+                                <span class="material-icons">view_quilt</span>
+                                <span>Layouts</span>
+                                <span class="new_tag inline-block text-white text-center">New</span>
+                            </a>
+                            <ul class="ht-menu-sub-menu float-left w-full hidden list-none">
+                                <li><a href="index.html" class="relative flex"><span>Light</span></a></li>
+                                <li><a href="index-dark.html" class="relative flex"><span>Dark</span></a></li>
+                                <li><a href="index-dark-sidebar.html" class="relative flex"><span>Dark Sidebar</span></a></li>
+                                <li><a href="index-horizontal.html" class="relative flex"><span>Horizontal</span></a></li>
+                                <li><a href="index-horizontal-dark.html" class="relative flex"><span>Dark Horizontal</span></a></li>
+                                <li><a href="index-rtl.html" class="relative flex"><span>RTL</span></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <h3 class="uppercase font-semibold">Componants</h3>
+                <nav class="ht-menu-menu float-left">
+                    <ul class="list-none m-0 p-0">
+                        <li class="has-sub-menu relative w-full float-left">
+                            <a href="#" class="relative flex"><span class="material-icons">airplay</span><span>UI Componants</span></a>
+                            <ul class="ht-menu-sub-menu float-left w-full hidden list-none">
+                                <li><a href="alarts.html" class="relative flex"><span>Alart</span></a></li>
+                                <li><a href="button.html" class="relative flex"><span>Buttons</span></a></li>
+                                <li><a href="#" class="relative flex"><span>Grid</span></a></li>
+                                <li><a href="#" class="relative flex"><span>Sweet Alart</span></a></li>
+                                <li><a href="#" class="relative flex"><span>Colors</span></a></li>
+                                <li><a href="#" class="relative flex"><span>Rating</span></a></li>
+                            </ul>
+                        </li>
+                        <li class="has-sub-menu relative w-full float-left">
+                            <a href="#" class="relative flex"><span class="material-icons">description</span><span>Forms</span></a>
+                            <ul class="ht-menu-sub-menu float-left w-full hidden list-none">
+                                <li><a href="#" class="relative flex"><span>Forms Style 1</span></a></li>
+                                <li><a href="#" class="relative flex"><span>Forms Style 2</span></a></li>
+                            </ul>
+                        </li>
+                        <li class="has-sub-menu relative w-full float-left">
+                            <a href="#" class="relative flex"><span class="material-icons">view_module</span><span>Table</span></a>
+                            <ul class="ht-menu-sub-menu float-left w-full hidden list-none">
+                                <li><a href="#" class="relative flex"><span>Table Style 1</span></a></li>
+                                <li><a href="#" class="relative flex"><span>Table Style 2</span></a></li>
+                            </ul>
+                        </li>
+                        <li class="has-sub-menu relative w-full float-left">
+                            <a href="#" class="relative flex"><span class="material-icons">equalizer</span><span>Charts</span></a>
+                            <ul class="ht-menu-sub-menu float-left w-full hidden list-none">
+                                <li><a href="#" class="relative flex"><span>Charts Style 1</span></a></li>
+                                <li><a href="#" class="relative flex"><span>Charts Style 2</span></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <h3 class="uppercase font-semibold">Applications</h3>
+                <nav class="ht-menu-menu float-left">
+                    <ul>
+                        <li class="has-sub-menu relative w-full float-left">
+                            <a href="#" class="relative flex"><span class="material-icons">email</span><span>Email</span></a>
+                            <ul class="ht-menu-sub-menu float-left w-full hidden list-none">
+                                <li><a href="#" class="relative flex"><span>All</span></a></li>
+                                <li><a href="#" class="relative flex"><span>Unread</span></a></li>
+                                <li><a href="#" class="relative flex"><span>Spam</span></a></li>
+                            </ul>
+                        </li>
+                        <li class="has-sub-menu relative w-full float-left">
+                            <a href="#" class="relative flex"><span class="material-icons">chat</span><span>Chat</span></a>
+                            <ul class="ht-menu-sub-menu float-left w-full hidden list-none">
+                                <li><a href="#" class="relative flex"><span>Online</span></a></li>
+                                <li><a href="#" class="relative flex"><span>Offline</span></a></li>
+                            </ul>
+                        </li>
+                        <li class="has-sub-menu relative w-full float-left">
+                            <a href="#" class="relative flex"><span class="material-icons">event</span><span>Calender</span></a>
+                            <ul class="ht-menu-sub-menu float-left w-full hidden list-none">
+                                <li><a href="#" class="relative flex"><span>Booked</span></a></li>
+                                <li><a href="#" class="relative flex"><span>Available</span></a></li>
+                            </ul>
+                        </li>
+                        <li class="has-sub-menu relative w-full float-left">
+                            <a href="#" class="relative flex"><span class="material-icons">contacts</span><span>Contact</span></a>
+                            <ul class="ht-menu-sub-menu float-left w-full hidden list-none">
+                                <li><a href="#" class="relative flex"><span>Harry</span></a></li>
+                                <li><a href="#" class="relative flex"><span>Charles</span></a></li>
+                                <li><a href="#" class="relative flex"><span>Kitty</span></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div><!-- Sidebar Menu Inner End -->
+        </div><!-- Sidebar Menu End -->
+        <!-- Main Content Start -->
+        <div class="main-content pr-7 pl-7 bg-light">
+            <!-- Title Text Start -->
+            <div class="title-txt sm:flex justify-between items-center">
+                <div class="inner-box">
+                    <h3 class="font-semibold">Button</h3>
+                </div>
+                <div class="page-heading">
+                    <h3 class="title">Ui Components / <span>Buttons</span></h3>
+                </div>
+            </div><!-- Title Text End -->
+            <!-- Box Area Start -->
+            <div class="box-area lg:grid lg:grid-cols-3 gap-7">
+                <!-- Single Card Box Start -->
+                <div class="single-card-box single-button-box card lg:col-span-1 bg-white">
+                    <div class="card-header">
+                        <h4 class="card-title font-semibold">Default Button</h4>
+                        <p>Bootstrap includes six predefined button styles each serving its own semantic purpose</p>
+                    </div>
+                    <div class="box-body">
+                        <div class="button-box flex">
+                            <button class="btn primary">Primary</button>
+                            <button class="btn light">Light</button>
+                            <button class="btn succes">Success</button>
+                        </div>
+                        <div class="button-box flex">
+                            <button class="btn danger-dark">Danger</button>
+                            <button class="btn dark">Dark</button>
+                            <button class="btn link">Link</button>
+                            <button class="btn secondary">Secondary</button>
+                        </div>
+                    </div>
+                </div><!-- Single Card Box End -->
+                <!-- Single Card Box Start -->
+                <div class="single-card-box single-button-box card lg:col-span-1 bg-white">
+                    <div class="card-header">
+                        <h4 class="card-title font-semibold">Rounded Buttons</h4>
+                        <p>Use class <span>.btn-rounded</span> for button round border.</p>
+                    </div>
+                    <div class="box-body">
+                        <div class="button-box flex">
+                            <button class="btn btn-rounded primary">Primary</button>
+                            <button class="btn btn-rounded light">Light</button>
+                            <button class="btn btn-rounded succes">Success</button>
+                        </div>
+                        <div class="button-box flex">
+                            <button class="btn btn-rounded danger">Danger</button>
+                            <button class="btn btn-rounded dark">Dark</button>
+                            <button class="btn btn-rounded link">Link</button>
+                            <button class="btn btn-rounded secondary">Secondary</button>
+                        </div>
+                    </div>
+                </div><!-- Single Card Box End -->
+                <!-- Single Card Box Start -->
+                <div class="single-card-box single-button-box card lg:col-span-1 bg-white">
+                    <div class="card-header">
+                        <h4 class="card-title font-semibold">Outline Rounded Buttons</h4>
+                        <p>Replace the default modifier classes with the <span>.btn-outline</span> ones to remove all background colors on any button.</p>
+                    </div>
+                    <div class="box-body">
+                        <div class="button-box flex">
+                            <button class="btn btn-rounded btn-outline primary">Primary</button>
+                            <button class="btn btn-rounded btn-outline light">Light</button>
+                            <button class="btn btn-rounded btn-outline succes">Success</button>
+                        </div>
+                        <div class="button-box flex">
+                            <button class="btn btn-rounded btn-outline danger">Danger</button>
+                            <button class="btn btn-rounded btn-outline dark">Dark</button>
+                            <button class="btn btn-rounded btn-outline link">Link</button>
+                            <button class="btn btn-rounded btn-outline secondary">Secondary</button>
+                        </div>
+                    </div>
+                </div><!-- Single Card Box End -->
+                <!-- Single Card Box Start -->
+                <div class="single-card-box single-button-box card lg:col-span-1 bg-white">
+                    <div class="card-header">
+                        <h4 class="card-title font-semibold">Button Size</h4>
+                        <p>Add .btn-lg, .btn-sm or .btn-xs for additional sizes.</p>
+                    </div>
+                    <div class="box-body">
+                        <div class="button-box flex">
+                            <button class="btn btn-lg primary">Large Button</button>
+                            <button class="btn btn-lg btn-outline primary">Large Button</button>
+                        </div>
+                        <div class="button-box flex">
+                            <button class="btn btn-sm primary">Small Button</button>
+                            <button class="btn btn-xs btn-outline primary">Small Button</button>
+                        </div>
+                    </div>
+                </div><!-- Single Card Box End -->
+                <!-- Single Card Box Start -->
+                <div class="single-card-box single-button-box card lg:col-span-1 bg-white">
+                    <div class="card-header">
+                        <h4 class="card-title font-semibold">Buttons With Icon</h4>
+                        <p>Add icon in button</p>
+                    </div>
+                    <div class="box-body">
+                        <div class="button-box flex">
+                            <button class="btn btn-rounded primary btn-icon">Primary <span class="material-icons">arrow_forward</span></button>
+                            <button class="btn btn-rounded succes btn-icon">Success <span class="material-icons">check</span></button>
+                            <button class="btn btn-rounded danger btn-icon">Danger <span class="material-icons">warning</span></button>
+                            <button class="btn btn-rounded warning btn-icon">Warning <span class="material-icons">error_outline</span></button>
+                        </div>
+                    </div>
+                </div><!-- Single Card Box End -->
+                <!-- Single Card Box Start -->
+                <div class="single-card-box single-button-box card lg:col-span-1 bg-white">
+                    <div class="card-header">
+                        <h4 class="card-title font-semibold">Button Tags</h4>
+                        <p>The .btn classes are designed to be used with the element.</p>
+                    </div>
+                    <div class="box-body">
+                        <div class="button-box flex">
+                            <button class="btn primary">Link</button>
+                            <button class="btn dark-purple">Button</button>
+                            <button class="btn succes">Input</button>
+                            <button class="btn danger">Submit</button>
+                        </div>
+                    </div>
+                </div><!-- Single Card Box End -->
+                <!-- Single Card Box Start -->
+                <div class="single-card-box single-button-box card lg:col-span-1 bg-white">
+                    <div class="card-header">
+                        <h4 class="card-title font-semibold">Button Group</h4>
+                        <p>Wrap a series of buttons with <span>.btn</span> in <span>.btn-group</span>.</p>
+                    </div>
+                    <div class="box-body flex button-box-wrap">
+                        <div class="button-box flex">
+                            <button class="btn primary active">Left</button>
+                            <button class="btn primary">Middle</button>
+                            <button class="btn primary">Right</button>
+                        </div>
+                        <div class="button-box flex">
+                            <button class="btn icon"><span class="material-icons">format_align_left</span></button>
+                            <button class="btn icon"><span class="material-icons">format_align_center</span></button>
+                            <button class="btn icon"><span class="material-icons">format_align_right</span></button>
+                        </div>
+                    </div>
+                </div><!-- Single Card Box End -->
+                <!-- Single Card Box Start -->
+                <div class="single-card-box single-button-box card lg:col-span-1 bg-white">
+                    <div class="card-header">
+                        <h4 class="card-title font-semibold">Buttons Width</h4>
+                        <p>Add <span>.w-xs, .w-sm, .w-md</span> and <span>.w-lg</span> class for additional buttons width.</p>
+                    </div>
+                    <div class="box-body">
+                        <div class="button-box flex">
+                            <button class="btn primary w-xs">Xs</button>
+                            <button class="btn dark-purple w-sm">Small</button>
+                            <button class="btn succes w-md">Medium</button>
+                            <button class="btn danger w-lg">Large</button>
+                        </div>
+                    </div>
+                </div><!-- Single Card Box End -->
+            </div><!-- Box Area End -->
+        </div><!-- Main Content End -->
+        <!-- Footer Start -->
+        <footer class="footer-area bg-white pr-7 pl-7">
+            <div class="flex justify-between">
+                <div class="copyright">
+                    <p>2021 @ Dashboard</p>
+                </div>
+                <div class="footer-nav">
+                    <ul class="flex justify-end">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer End -->
+    </div>
+    <!-- Content Area End -->
+    
+    <!-- All js Files Here -->
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <script src="assets/js/chart.js"></script>
+    <script src="assets/js/jquery.easypiechart.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/chart-light.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
